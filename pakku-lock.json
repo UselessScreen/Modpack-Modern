@@ -7948,6 +7948,67 @@
             ]
         },
         {
+            "pakku_id": "H52TBC03zHXQtZfs",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "forgified-fabric-api",
+                "modrinth": "forgified-fabric-api"
+            },
+            "name": {
+                "curseforge": "Forgified Fabric API",
+                "modrinth": "Forgified Fabric API"
+            },
+            "id": {
+                "curseforge": "889079",
+                "modrinth": "Aqlf1Shp"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fabric-api-0.92.6+1.11.14+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6885/853/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+                    "id": "6885853",
+                    "parent_id": "889079",
+                    "hashes": {
+                        "sha1": "285c22b2567b9fdf98ef9808eceb5557de9611d3",
+                        "md5": "2859d401e221e94acf0b48c5f7efa50b"
+                    },
+                    "required_dependencies": [],
+                    "size": 3065813,
+                    "date_published": "2025-08-14T14:02:34.270Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "fabric-api-0.92.6+1.11.14+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Aqlf1Shp/versions/XweDEycJ/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+                    "id": "XweDEycJ",
+                    "parent_id": "Aqlf1Shp",
+                    "hashes": {
+                        "sha512": "3b84ea415d9255861bcbf78cfda3987b78aa452361bf44ba6a0223501a25ab5c5c55cb0eac6f460c88b8cec958f2b59211e488277c26e3432a08196f62049e7c",
+                        "sha1": "285c22b2567b9fdf98ef9808eceb5557de9611d3"
+                    },
+                    "required_dependencies": [],
+                    "size": 3065813,
+                    "date_published": "2025-08-14T14:02:39.244165Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "5SQ0czDAOB19jrY9",
             "type": "MOD",
             "side": "BOTH",
@@ -11319,6 +11380,34 @@
             ]
         },
         {
+            "pakku_id": "25IhZ5rkdINdCsW3",
+            "type": "MOD",
+            "slug": {
+                "github": "UselessScreen/Modpack-Modern"
+            },
+            "name": {
+                "github": "Modpack-Modern"
+            },
+            "id": {
+                "github": "1250620638"
+            },
+            "files": [
+                {
+                    "type": "github",
+                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.22-fixed.jar",
+                    "release_type": "release",
+                    "url": "https://github.com/UselessScreen/Modpack-Modern/releases/download/0.11.28/TerraFirmaCraft-Forge-1.20.1-3.2.22-fixed.jar",
+                    "id": "430585515",
+                    "parent_id": "1250620638",
+                    "hashes": {
+                        "sha256": "33d7a10e7f9c51b1ad9028d89e2a9386c90858e6a294019f03b4036b71bc8dea"
+                    },
+                    "size": 47420780,
+                    "date_published": "2026-05-26T23:23:13Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "fR2my61zK1ySP67C",
             "type": "MOD",
             "side": "BOTH",
@@ -12888,6 +12977,34 @@
             ]
         },
         {
+            "pakku_id": "9wqr1jGq7jKsJCwP",
+            "type": "MOD",
+            "slug": {
+                "github": "Sollace/Psychedelicraft"
+            },
+            "name": {
+                "github": "Psychedelicraft"
+            },
+            "id": {
+                "github": "201674629"
+            },
+            "files": [
+                {
+                    "type": "github",
+                    "file_name": "psychedelicraft-1.8.9+1.21.jar",
+                    "release_type": "release",
+                    "url": "https://github.com/Sollace/Psychedelicraft/releases/download/1.8.9+1.21.5/psychedelicraft-1.8.9+1.21.jar",
+                    "id": "314076970",
+                    "parent_id": "201674629",
+                    "hashes": {
+                        "sha256": "8baa351dce869938d00e4e6dbfdc23a2f36f97f5493c144dbc9593473006889b"
+                    },
+                    "size": 5674142,
+                    "date_published": "2025-11-08T14:10:03Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3Hn4sTVbBvKyQJJS",
             "type": "MOD",
             "side": "BOTH",
@@ -13756,6 +13873,74 @@
                     "required_dependencies": [],
                     "size": 20849,
                     "date_published": "2026-02-21T09:46:54.760Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "YqX21XFT3iBkVj33",
+            "pakku_links": [
+                "H52TBC03zHXQtZfs"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "sinytra-connector",
+                "modrinth": "connector"
+            },
+            "name": {
+                "curseforge": "Sinytra Connector",
+                "modrinth": "Sinytra Connector"
+            },
+            "id": {
+                "curseforge": "890127",
+                "modrinth": "u58R1TMW"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Connector-1.0.0-beta.48+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7594/389/Connector-1.0.0-beta.48+1.20.1.jar",
+                    "id": "7594389",
+                    "parent_id": "890127",
+                    "hashes": {
+                        "sha1": "23f4a45b2ea66548fddff299326cd56e2d9e5cf8",
+                        "md5": "5202a17ddcb2f93de07e6e783dbcc50b"
+                    },
+                    "required_dependencies": [
+                        "889079"
+                    ],
+                    "size": 5043906,
+                    "date_published": "2026-02-08T14:07:44.273Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Connector-1.0.0-beta.48+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/u58R1TMW/versions/dmW0aite/Connector-1.0.0-beta.48+1.20.1.jar",
+                    "id": "dmW0aite",
+                    "parent_id": "u58R1TMW",
+                    "hashes": {
+                        "sha512": "b931040133c096d1d00051b92cb8c96b158bb2e4677bf8c85d6c43c692eb3e74b11e0277b2ed5b72baa9b861d447106d462376d996e158846cc8d2a17ed3a440",
+                        "sha1": "3c9682a67439519f731a7a9602241366af7f9fcc"
+                    },
+                    "required_dependencies": [
+                        "Aqlf1Shp"
+                    ],
+                    "size": 5043870,
+                    "date_published": "2026-02-08T14:07:47.685070Z"
                 }
             ]
         },
