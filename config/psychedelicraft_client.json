@@ -1,0 +1,75 @@
+{
+  "debug": {
+    // Enabled printing of shader vertex and fragment sources for easier debugging
+    // (May impact performance)
+    // Default: False
+    "printsshadersources": false,
+    // Forces geometry shaders to be read every time,
+    // (May impact performance),
+    // Default: False,
+    "forceshaderrecompiles": false
+  },
+  "visual": {
+    // Sets whether a water splash effect should appear when the player gets wet or is outside in the rain
+    // Default: true
+    "wateroverlayenabled": true,
+    // Enables and disables all 3D (geometric) shader effects.,
+    // e.g. Waves,
+    // Default: true,
+    "shader3denabled": true,
+    // Sets the distance from the camera of the far focal point when doing depth of field,
+    // Default: 128 (up to render distance),
+    "doffocalpointfar": 128.0,
+    // Sets whether drug effects are allowed can cause motion blur effects,
+    // Default: true,
+    "domotionblur": true,
+    // Sets whether to apply a distortion effect when the player is in arid environments,
+    // Default: true,
+    "doheatdistortion": true,
+    // Controls the intensity of the sunglare. Set to 0 to disable the sun flare entirely,
+    // Default: 0.25,
+    "sunflareintensity": 0.25,
+    // Sets whether to apply a distortion effect when the player is submerged,
+    // Default: true,
+    "dowaterdistortion": true,
+    // Sets blurring amount at the near focal point,
+    // Default: 0,
+    "doffocalblurnear": 0.0,
+    // Sets the distance from the camera of the near focal point when doing depth of field,
+    // Default: 0.2,
+    "doffocalpointnear": 0.2,
+    // Sets blurring amount at the far focal point,
+    // Default: 0,
+    "doffocalblurfar": 0.0,
+    // Scaling ratio for the zero drug's effect,
+    // Default: {x: 0.05, y: 0.05},
+    "digitaleffectpixelrescale": {
+      "x": 0.05,
+      "y": 0.05
+    },
+    // Sets whether the edges of the screen flash red whenever the player is hurt,
+    // Default: true,
+    "hurtoverlayenabled": true,
+    // Enables and disables all 2D (screen) shader effects.,
+    // e.g. Blurring, double vision, sunflare, etc,
+    // Default: true,
+    "shader2denabled": true
+  },
+  "audio": {
+    // Enables and disables background music to play when certain drugs are active.
+    // Default: True
+    "drugsbackgroundmusic": true,
+    // The threshold value for when background music should start playing. Music only plays if the drug strength is greater than this value,
+    // Default: 0.01,
+    // Minimum: 0.01, Maximum: 1,
+    "drugsbackgroundmusicthreshold": 0.01
+  },
+  "compatibility": {
+    // Enables and disables shader injections for iris. Turn this off if you're having troubles
+    // Default: True
+    "irissupport": true,
+    // Enables and disables shader injections for sodium. Turn this off if you're having troubles,
+    // Default: True,
+    "sodiumsupport": true
+  }
+}
