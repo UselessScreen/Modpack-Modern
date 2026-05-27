@@ -893,9 +893,6 @@
         },
         {
             "pakku_id": "cBBId9lxKRMCqYMS",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "macaws-for-terrafirmacraft"
@@ -1184,9 +1181,6 @@
         },
         {
             "pakku_id": "2bYBgl1QjxhmPNgX",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -1389,7 +1383,6 @@
         {
             "pakku_id": "Wg44U8f1K4nbIsj1",
             "pakku_links": [
-                "64uacGcEw697jVGs",
                 "6dYejgNtpJaOppvV",
                 "4L03mAuxL9hXBkDI"
             ],
@@ -1713,8 +1706,7 @@
         {
             "pakku_id": "wlCxYqc4aEHg2Z52",
             "pakku_links": [
-                "0DMPJ1AWW6qfYubI",
-                "64uacGcEw697jVGs"
+                "0DMPJ1AWW6qfYubI"
             ],
             "type": "MOD",
             "side": "BOTH",
@@ -1785,9 +1777,6 @@
         },
         {
             "pakku_id": "jfrdEXIw393ydoyH",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -5321,7 +5310,6 @@
             "pakku_id": "JxYZGufxyKw6HXyT",
             "pakku_links": [
                 "0DMPJ1AWW6qfYubI",
-                "64uacGcEw697jVGs",
                 "ihA4iuyUc3fA0D4q"
             ],
             "type": "MOD",
@@ -7678,7 +7666,6 @@
         {
             "pakku_id": "wB80dFAavvcZ8n4R",
             "pakku_links": [
-                "64uacGcEw697jVGs",
                 "dGK4XTJPQF2dqXh1"
             ],
             "type": "MOD",
@@ -7815,9 +7802,6 @@
         },
         {
             "pakku_id": "AqNG8HNM9pfy1ges",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -9014,9 +8998,6 @@
         },
         {
             "pakku_id": "s6Jr0kJU14wGbx5U",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
@@ -10465,9 +10446,6 @@
         },
         {
             "pakku_id": "vhVFMlaJp9nsn7Q5",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -12977,7 +12955,7 @@
             ]
         },
         {
-            "pakku_id": "9wqr1jGq7jKsJCwP",
+            "pakku_id": "XvUPePmxxGGFsAKS",
             "type": "MOD",
             "slug": {
                 "github": "Sollace/Psychedelicraft"
@@ -12991,15 +12969,15 @@
             "files": [
                 {
                     "type": "github",
-                    "file_name": "psychedelicraft-1.8.9+1.21.jar",
+                    "file_name": "psychedelicraft-1.8.9+1.20.1.jar",
                     "release_type": "release",
-                    "url": "https://github.com/Sollace/Psychedelicraft/releases/download/1.8.9+1.21.5/psychedelicraft-1.8.9+1.21.jar",
+                    "url": "https://github.com/Sollace/Psychedelicraft/releases/download/1.8.9+1.21.5/psychedelicraft-1.8.9+1.20.1.jar",
                     "id": "314076970",
                     "parent_id": "201674629",
                     "hashes": {
-                        "sha256": "8baa351dce869938d00e4e6dbfdc23a2f36f97f5493c144dbc9593473006889b"
+                        "sha256": "7e065cb9d01036f54c2ecda3a32a397e582518d238407374dcea7ba34000014e"
                     },
-                    "size": 5674142,
+                    "size": 5868332,
                     "date_published": "2025-11-08T14:10:03Z"
                 }
             ]
@@ -13411,7 +13389,6 @@
         {
             "pakku_id": "Onv7E6XLSsx0NE2o",
             "pakku_links": [
-                "64uacGcEw697jVGs",
                 "8jcmjuoMhFDsALTg"
             ],
             "type": "MOD",
@@ -13485,9 +13462,6 @@
         },
         {
             "pakku_id": "zOlM6hm7KZ1BAq5R",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -14852,9 +14826,6 @@
         },
         {
             "pakku_id": "UGe62VAXkXb7TDgk",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -14920,9 +14891,6 @@
         },
         {
             "pakku_id": "CPaYKBv7ChV7n8m0",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -14991,8 +14959,7 @@
                 "F6H99cZ4H6jZRpEK",
                 "sJEa0sgmiknN6IGn",
                 "fMkiGcRPRv1DdRC1",
-                "1RCsMnDdwXXOUKKG",
-                "64uacGcEw697jVGs"
+                "1RCsMnDdwXXOUKKG"
             ],
             "type": "MOD",
             "slug": {
@@ -15032,10 +14999,74 @@
             ]
         },
         {
-            "pakku_id": "LflWIJPuCczYgYtt",
+            "pakku_id": "DER7HmNR9pm9t8hu",
             "pakku_links": [
-                "64uacGcEw697jVGs"
+                "AqNG8HNM9pfy1ges"
             ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "tfc-gourmet",
+                "modrinth": "tfc_gourmet"
+            },
+            "name": {
+                "curseforge": "TFC Gourmet",
+                "modrinth": "TFC Gourmet"
+            },
+            "id": {
+                "curseforge": "1363944",
+                "modrinth": "ERme2o65"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "tfc_gourmet-1.5.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/ERme2o65/versions/QXFJ9UPF/tfc_gourmet-1.5.2.jar",
+                    "id": "QXFJ9UPF",
+                    "parent_id": "ERme2o65",
+                    "hashes": {
+                        "sha512": "7c310634cd2ddaca2c668254430aeaa8ee83c0179ddf3dfc7c9e595d8b362a80665c2a8b5ee49a7c7ed75ebe6f11c1117cf9e738130ee543fd4ebf4120ac238a",
+                        "sha1": "9702c10e50183ac9c0827bc899d0a50cba211f9e"
+                    },
+                    "required_dependencies": [],
+                    "size": 423609,
+                    "date_published": "2026-02-23T01:04:15.376269Z"
+                },
+                {
+                    "type": "curseforge",
+                    "file_name": "tfc_gourmet-1.5.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7665/969/tfc_gourmet-1.5.2.jar",
+                    "id": "7665969",
+                    "parent_id": "1363944",
+                    "hashes": {
+                        "sha1": "9702c10e50183ac9c0827bc899d0a50cba211f9e",
+                        "md5": "43b99a54522d40d0f8ec95edf31834f1"
+                    },
+                    "required_dependencies": [
+                        "302973",
+                        "453394"
+                    ],
+                    "size": 423609,
+                    "date_published": "2026-02-23T01:00:53.523Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "LflWIJPuCczYgYtt",
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -15099,9 +15130,6 @@
         },
         {
             "pakku_id": "qsPtzQR6kvGPEfHU",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -15168,10 +15196,74 @@
             ]
         },
         {
+            "pakku_id": "EgqS6T2VdK7Hazcf",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "tfc-improved-badlands",
+                "modrinth": "tfc-improved-badlands"
+            },
+            "name": {
+                "curseforge": "TFC Improved Badlands",
+                "modrinth": "TFC Improved Badlands"
+            },
+            "id": {
+                "curseforge": "969207",
+                "modrinth": "kzX1pnV3"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "TFCImprovedBadlands-1.20.1-1.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5126/426/TFCImprovedBadlands-1.20.1-1.0.2.jar",
+                    "id": "5126426",
+                    "parent_id": "969207",
+                    "hashes": {
+                        "sha1": "021052fcfdd3b51ec5c0b3e46974ecdfd641a0c8",
+                        "md5": "83ac19f6d7ef4ee1d620033845068b0d"
+                    },
+                    "required_dependencies": [
+                        "302973"
+                    ],
+                    "size": 1750888,
+                    "date_published": "2024-02-21T21:42:51.753Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "TFCImprovedBadlands-1.20.1-1.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/kzX1pnV3/versions/t1JS5Yoc/TFCImprovedBadlands-1.20.1-1.0.2.jar",
+                    "id": "t1JS5Yoc",
+                    "parent_id": "kzX1pnV3",
+                    "hashes": {
+                        "sha512": "d92d7560bb93c5bd69fbfbf636cbe22fd966297cd4c5f900235ae8ff1924a1b1fff916f8e4a40c22c0785f4ef56248a9d5a87e10280e5ab2e0531e82a4205da3",
+                        "sha1": "021052fcfdd3b51ec5c0b3e46974ecdfd641a0c8"
+                    },
+                    "required_dependencies": [
+                        "JaCEZUhg"
+                    ],
+                    "size": 1750888,
+                    "date_published": "2024-08-28T13:19:49.057361Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "rOUQenxxuY5sh7Mp",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -15237,9 +15329,6 @@
         },
         {
             "pakku_id": "tfgyug44yfvJpIAV",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -15304,9 +15393,6 @@
         },
         {
             "pakku_id": "ajFTZODDe9JA6OiW",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "SERVER",
             "slug": {
@@ -15374,8 +15460,7 @@
         {
             "pakku_id": "LPHqtA4kbNpa7ADR",
             "pakku_links": [
-                "3VXkRfGFKQ4l6TlN",
-                "64uacGcEw697jVGs"
+                "3VXkRfGFKQ4l6TlN"
             ],
             "type": "MOD",
             "side": "CLIENT",
@@ -15447,7 +15532,6 @@
         {
             "pakku_id": "oV67DS8fDUlcK3I3",
             "pakku_links": [
-                "64uacGcEw697jVGs",
                 "TC156gA6Zt7xe4yH"
             ],
             "type": "MOD",
@@ -15518,9 +15602,6 @@
         },
         {
             "pakku_id": "tSa9820mnJnp7Y2C",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -15590,9 +15671,6 @@
         },
         {
             "pakku_id": "NFw0Avds4yTwUL8D",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "CLIENT",
             "slug": {
@@ -15658,9 +15736,6 @@
         },
         {
             "pakku_id": "kR8s4t9LptntMSpg",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -15725,9 +15800,6 @@
         },
         {
             "pakku_id": "9qKO8lvTQ1RWQA5T",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -15829,9 +15901,6 @@
         },
         {
             "pakku_id": "qCVd1ucK3X4xk861",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -16057,77 +16126,7 @@
             ]
         },
         {
-            "pakku_id": "64uacGcEw697jVGs",
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "terrafirmacraft",
-                "modrinth": "terrafirmacraft"
-            },
-            "name": {
-                "curseforge": "TerraFirmaCraft",
-                "modrinth": "TerraFirmaCraft"
-            },
-            "id": {
-                "curseforge": "302973",
-                "modrinth": "JaCEZUhg"
-            },
-            "files": [
-                {
-                    "type": "modrinth",
-                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.23.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://cdn.modrinth.com/data/JaCEZUhg/versions/aXa5OyYQ/TerraFirmaCraft-Forge-1.20.1-3.2.23.jar",
-                    "id": "aXa5OyYQ",
-                    "parent_id": "JaCEZUhg",
-                    "hashes": {
-                        "sha512": "7c6aa71e6f4d9152d35df19a037c05a0027301473f54f9c4ce01597bda2c1ad0dd82b712abb4d3287b0d8395b65fd6a3e106822f3f126633c116c56aec96ccff",
-                        "sha1": "30e162b774ae76c7032cd5eb3e25de26c2a101f2"
-                    },
-                    "required_dependencies": [
-                        "nU0bVIaL"
-                    ],
-                    "size": 47426299,
-                    "date_published": "2026-06-13T15:25:59.240370Z"
-                },
-                {
-                    "type": "curseforge",
-                    "file_name": "TerraFirmaCraft-Forge-1.20.1-3.2.23.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8242/625/TerraFirmaCraft-Forge-1.20.1-3.2.23.jar",
-                    "id": "8242625",
-                    "parent_id": "302973",
-                    "hashes": {
-                        "sha1": "30e162b774ae76c7032cd5eb3e25de26c2a101f2",
-                        "md5": "77aee4e39bd16eb79befc85c43a35786"
-                    },
-                    "required_dependencies": [
-                        "306770"
-                    ],
-                    "size": 47426299,
-                    "date_published": "2026-06-13T15:25:54.237Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "DEmuaO3pYfY1Plbn",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "side": "BOTH",
             "slug": {
@@ -16254,9 +16253,6 @@
         },
         {
             "pakku_id": "HmuVmQIxSjcXXYFw",
-            "pakku_links": [
-                "64uacGcEw697jVGs"
-            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "tfc-scraping-knives"
