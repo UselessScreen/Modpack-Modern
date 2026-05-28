@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "psychedelicraft:block/wild_cannabis"
+  }
+}
