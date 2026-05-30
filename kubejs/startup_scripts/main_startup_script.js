@@ -42,6 +42,7 @@ ItemEvents.modification(event => {
 
 StartupEvents.registry('fluid', event => {
 	registerTFGFluids(event)
+	registerTFGAFluids(event)
 })
 
 StartupEvents.registry('sound_event', event => {
