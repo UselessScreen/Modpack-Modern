@@ -1,4 +1,4 @@
-//food conversions
+//#region Food Conversions
 
 ServerEvents.recipes(event => {
     event.shapeless(
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'psychedelicraft:tomato_seeds', type: 'minecraft:crafting_shapeless'})
 })
 
-//total gregification
+//#region Total Gregification
 
 ServerEvents.recipes(event => {
     event.shaped(
@@ -205,6 +205,8 @@ ServerEvents.recipes(event => {
 //still not neccesary for most of what we are doing though
 
 //This could be useful for when you make the rest of the wild "crops" (I will be using this for a large number of ps fluids as it is much easier and takes less lines)
+
+//#region General Recipies
 
 ServerEvents.recipes(event => {
     //bath salts
@@ -434,31 +436,41 @@ ServerEvents.recipes(event => {
         .duration(500)
         .EUt(128)
 })
-//drying
+//#region Drying
 function registerTFGAFoodRecipes(event) {
-    global.registerFoodRecipe(event, "food_oven", "cannabis_drying", 300, GTValues.VA[GTValues.LV], '', {
-        itemInputs: ["psychedelicraft:cannabis_leaf"],
-        itemOutputs: ["psychedelicraft:dried_cannabis_leaf"],
-        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_cannabis_leaf")
-    })
-    global.registerFoodRecipe(event, "food_oven", "cannabis_bud_drying", 300, GTValues.VA[GTValues.LV], '', {
-        itemInputs: ["psychedelicraft:cannabis_buds"],
-        itemOutputs: ["psychedelicraft:dried_cannabis_buds"],
-        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_cannabis_buds")
-    })
-    global.registerFoodRecipe(event, "food_oven", "tobacco_drying", 300, GTValues.VA[GTValues.LV], '', {
-        itemInputs: ["psychedelicraft:tobacco"],
-        itemOutputs: ["psychedelicraft:dried_tobacco"],
-        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_tobacco")
-    })
-    global.registerFoodRecipe(event, "food_oven", "peyote_drying", 300, GTValues.VA[GTValues.LV], '', {
-        itemInputs: ["psychedelicraft:peyote"],
-        itemOutputs: ["psychedelicraft:dried_peyote"],
-        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_peyote")
-    })
-    global.registerFoodRecipe(event, "food_oven", "coca_leaves_drying", 300, GTValues.VA[GTValues.LV], '', {
-        itemInputs: ["psychedelicraft:coca_leaves"],
-        itemOutputs: ["psychedelicraft:dried_coca_leaves"],
-        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_coca_leaves")
-    })
+	global.processorRecipeText(event, 'dried_cannabis_leaves', 200, GTValues.VA[GTValues.LV], "tfg.food_recipe.drying", {
+		itemInputs: ["psychedelicraft:cannabis_leaf"],
+		fluidInputs: ['gtceu:nitrogen 100'],
+		itemOutputs: ["psychedelicraft:dried_cannabis_leaf"],
+		circuit: 6,
+		itemOutputProvider: TFC.isp.of('psychedelicraft:dried_cannabis_leaf')
+	});
+	global.processorRecipeText(event, 'dried_cannabis_buds', 200, GTValues.VA[GTValues.LV], "tfg.food_recipe.drying", {
+		itemInputs: ["psychedelicraft:cannabis_buds"],
+		fluidInputs: ['gtceu:nitrogen 100'],
+		itemOutputs: ["psychedelicraft:dried_cannabis_buds"],
+		circuit: 6,
+		itemOutputProvider: TFC.isp.of('psychedelicraft:dried_cannabis_buds')
+	});
+	global.processorRecipeText(event, 'dried_tobacco', 200, GTValues.VA[GTValues.LV], "tfg.food_recipe.drying", {
+		itemInputs: ["psychedelicraft:tobacco"],
+		fluidInputs: ['gtceu:nitrogen 100'],
+		itemOutputs: ["psychedelicraft:dried_tobacco"],
+		circuit: 6,
+		itemOutputProvider: TFC.isp.of('psychedelicraft:dried_tobacco')
+	});
+	global.processorRecipeText(event, 'dried_peyote', 200, GTValues.VA[GTValues.LV], "tfg.food_recipe.drying", {
+		itemInputs: ["psychedelicraft:peyote"],
+		fluidInputs: ['gtceu:nitrogen 100'],
+		itemOutputs: ["psychedelicraft:dried_peyote"],
+		circuit: 6,
+		itemOutputProvider: TFC.isp.of('psychedelicraft:dried_peyote')
+	});
+	global.processorRecipeText(event, 'dried_coca_leaves', 200, GTValues.VA[GTValues.LV], "tfg.food_recipe.drying", {
+		itemInputs: ["psychedelicraft:coca_leaves"],
+		fluidInputs: ['gtceu:nitrogen 100'],
+		itemOutputs: ["psychedelicraft:dried_coca_leaves"],
+		circuit: 6,
+		itemOutputProvider: TFC.isp.of('psychedelicraft:dried_coca_leaves')
+	});
 }
