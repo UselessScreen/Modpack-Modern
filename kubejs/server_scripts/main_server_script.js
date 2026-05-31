@@ -284,6 +284,7 @@ ServerEvents.recipes(event => {
 	registerWABRecipes(event)
 	registerTFCScrapingKnivesRecipes(event)
 	registerTFGCircuitBoardsRecipes(event)
+	registerTFGAFoodRecipes(event)
 })
 
 TaCZServerEvents.gunIndexLoad((event) => {

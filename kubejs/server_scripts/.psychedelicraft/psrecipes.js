@@ -434,3 +434,31 @@ ServerEvents.recipes(event => {
         .duration(500)
         .EUt(128)
 })
+//drying
+function registerTFGAFoodRecipes(event) {
+    global.registerFoodRecipe(event, "food_oven", "cannabis_drying", 300, GTValues.VA[GTValues.LV], '', {
+        itemInputs: ["psychedelicraft:cannabis_leaf"],
+        itemOutputs: ["psychedelicraft:dried_cannabis_leaf"],
+        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_cannabis_leaf")
+    })
+    global.registerFoodRecipe(event, "food_oven", "cannabis_bud_drying", 300, GTValues.VA[GTValues.LV], '', {
+        itemInputs: ["psychedelicraft:cannabis_buds"],
+        itemOutputs: ["psychedelicraft:dried_cannabis_buds"],
+        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_cannabis_buds")
+    })
+    global.registerFoodRecipe(event, "food_oven", "tobacco_drying", 300, GTValues.VA[GTValues.LV], '', {
+        itemInputs: ["psychedelicraft:tobacco"],
+        itemOutputs: ["psychedelicraft:dried_tobacco"],
+        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_tobacco")
+    })
+    global.registerFoodRecipe(event, "food_oven", "peyote_drying", 300, GTValues.VA[GTValues.LV], '', {
+        itemInputs: ["psychedelicraft:peyote"],
+        itemOutputs: ["psychedelicraft:dried_peyote"],
+        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_peyote")
+    })
+    global.registerFoodRecipe(event, "food_oven", "coca_leaves_drying", 300, GTValues.VA[GTValues.LV], '', {
+        itemInputs: ["psychedelicraft:coca_leaves"],
+        itemOutputs: ["psychedelicraft:dried_coca_leaves"],
+        itemOutputProvider: TFC.isp.of("psychedelicraft:dried_coca_leaves")
+    })
+}

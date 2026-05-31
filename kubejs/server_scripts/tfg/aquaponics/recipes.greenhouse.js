@@ -503,6 +503,21 @@ const registerTFGGreenhouseRecipes = (event) => {
 
 	//#region Recipes
 
+	//psychedelicraft
+	generateCropGreenHouseRecipe(event, null, 'psychedelicraft:morning_glory_seeds', 'psychedelicraft:morning_glory', null, 1);
+	generateGreenHouseRecipe(event, null, '8x psychedelicraft:agave_leaf', ['24x psychedelicraft:agave_leaf', '8x psychedelicraft:agave_leaf'], 1, 1);
+	generateGreenHouseRecipe(event, null, '8x psychedelicraft:peyote', ['24x psychedelicraft:peyote', '8x psychedelicraft:peyote'], 1, 1);
+	generateCropGreenHouseRecipe(event, null, 'psychedelicraft:jimsonweed_seeds', 'psychedelicraft:jimsonweed_seed_pod', null, 1);
+	generateCropGreenHouseRecipe(event, null, 'psychedelicraft:belladonna_seeds', 'psychedelicraft:belladonna_berries', null, 1);
+	generateCropGreenHouseRecipe(event, null, 'psychedelicraft:coca_seeds', 'psychedelicraft:coca_leaves', null, 1);
+	generateCropGreenHouseRecipe(event, null, 'psychedelicraft:coffea_cherries', 'psychedelicraft:coffee_beans', null, 1);
+	generateCropGreenHouseRecipe(event, null, 'psychedelicraft:hop_seeds', 'psychedelicraft:hop_cones', null, 1);
+	generateCropGreenHouseRecipe(event, null, 'psychedelicraft:tobacco_seeds', 'psychedelicraft:tobacco', null, 1);
+	generateGreenHouseRecipe(event, null, '8x psychedelicraft:cannabis_seeds', ['24x psychedelicraft:cannabis_leaf', '24x psychedelicraft:cannabis_buds', '8x psychedelicraft:cannabis_seeds'], 1, 1);
+
+	generateTreeGreenHouseRecipe(event, null, 'psychedelicraft:juniper_sapling', 'psychedelicraft:juniper_log', 'psychedelicraft:juniper_berries', 1);
+
+
 	// Mushrooms
 	Ingredient.of('#tfg:plants/beneath').stacks.forEach(element => {
 		generateGreenHouseRecipe(event, 'minecraft:the_nether', `8x ${element.id}`, [element.withCount(24), element.withCount(8)], 1, 1);
