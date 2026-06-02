@@ -10445,6 +10445,49 @@
             ]
         },
         {
+            "pakku_id": "Tg03Gx3CG3pzyUJu",
+            "pakku_links": [
+                "bf2svog06ajj5JHE",
+                "0sIjmN68zKhkTng7"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-sanity"
+            },
+            "name": {
+                "curseforge": "KubeJS Sanity"
+            },
+            "id": {
+                "curseforge": "1090570"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "SanityJS-1.2.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7859/38/SanityJS-1.2.0.jar",
+                    "id": "7859038",
+                    "parent_id": "1090570",
+                    "hashes": {
+                        "sha1": "2b5952874295d1d69e1563a2300e593b4b30bcb9",
+                        "md5": "ff7e3840b986b93a82a8f6fe0a87ed56"
+                    },
+                    "required_dependencies": [
+                        "238086",
+                        "876448"
+                    ],
+                    "size": 272575,
+                    "date_published": "2026-04-02T00:18:43.200Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vhVFMlaJp9nsn7Q5",
             "type": "MOD",
             "side": "BOTH",
@@ -13525,6 +13568,77 @@
                     ],
                     "size": 1282481,
                     "date_published": "2026-05-22T03:14:47.490Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "0sIjmN68zKhkTng7",
+            "pakku_links": [
+                "ihA4iuyUc3fA0D4q"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "sanity-descent-into-madness",
+                "modrinth": "sanity-descent-into-madness"
+            },
+            "name": {
+                "curseforge": "Sanity: Descent Into Madness",
+                "modrinth": "Sanity: Descent Into Madness"
+            },
+            "id": {
+                "curseforge": "876448",
+                "modrinth": "8EwpjZay"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sanitydim-mc1.20-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20",
+                        "1.20-Snapshot"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4625/236/sanitydim-mc1.20-1.1.0.jar",
+                    "id": "4625236",
+                    "parent_id": "876448",
+                    "hashes": {
+                        "sha1": "36397cb9e939df868c5748a19762cbe16424a2ed",
+                        "md5": "643c8a765f9db2a6d105592ebfa8dddf"
+                    },
+                    "required_dependencies": [
+                        "388172"
+                    ],
+                    "size": 6052841,
+                    "date_published": "2023-07-04T20:00:18.470Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "sanitydim-mc1.20-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/8EwpjZay/versions/FVCQE08X/sanitydim-mc1.20-1.1.0.jar",
+                    "id": "FVCQE08X",
+                    "parent_id": "8EwpjZay",
+                    "hashes": {
+                        "sha512": "5deb42fbf08de0191aec8105f17316cdc2089d0047bfe6bde1b8e9b9bd9d509a0fc62c67ad43b655f874bf65d18af3c64fc3a00096f95181c335e2032411718c",
+                        "sha1": "36397cb9e939df868c5748a19762cbe16424a2ed"
+                    },
+                    "required_dependencies": [
+                        "8BmcQJ2H"
+                    ],
+                    "size": 6052841,
+                    "date_published": "2023-07-04T19:59:11.149343Z"
                 }
             ]
         },
