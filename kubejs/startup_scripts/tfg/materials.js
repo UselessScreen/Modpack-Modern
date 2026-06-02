@@ -34,6 +34,7 @@ const registerTFGMaterials = (event) => {
 	
 	registerTFGPowerReworkMaterials(event);
 	registerTFGNuclearMaterials(event);
+	registerTFGAWariumMaterials(event);
 	registerTFGSMRAdditiveMaterials(event)
 	registerTFGBiolineMaterials(event);
 	registerTFGPrimitiveMaterials(event);
