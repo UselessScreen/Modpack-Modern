@@ -245,7 +245,7 @@ ServerEvents.recipes(event => {
     Item.of('crusty_chunks:ordinance_inline_warhead'),
     [
         'DBD',
-        'CBC',
+        'CAC',
         'DBD'
     ],
     {

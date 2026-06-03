@@ -13,10 +13,16 @@ ServerEvents.recipes(event => {
             '#firmalife:foods/grapes',
         ]
     )
+    event.shapeless(
+        Item.of('psychedelicraft:morning_glory'),
+        [
+            'tfc:plant/morning_glory'
+        ]
+    )
 
     event.remove({output: 'psychedelicraft:tomato_seeds', type: 'minecraft:crafting_shapeless'})
 })
-
+//#endregion
 //#region Total Gregification
 
 ServerEvents.recipes(event => {
@@ -194,6 +200,7 @@ ServerEvents.recipes(event => {
     )
 })
 
+//#endregion
 //psychotic breakdown
 
 
@@ -436,6 +443,7 @@ ServerEvents.recipes(event => {
         .duration(500)
         .EUt(128)
 })
+//#endregion
 //#region Drying
 function registerTFGAFoodRecipes(event) {
 	global.processorRecipeText(event, 'dried_cannabis_leaves', 200, GTValues.VA[GTValues.LV], "tfg.food_recipe.drying", {
@@ -473,4 +481,5 @@ function registerTFGAFoodRecipes(event) {
 		circuit: 6,
 		itemOutputProvider: TFC.isp.of('psychedelicraft:dried_coca_leaves')
 	});
+//#endregion
 }
