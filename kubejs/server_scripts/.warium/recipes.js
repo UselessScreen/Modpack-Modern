@@ -41,8 +41,13 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x tfg:smoke_formula_dust')
         .duration(200)
         .EUt(30)
-
-    //#region Crafting table recipies
+    event.recipes.gtceu.chemical_reactor('lithium_deuteride')
+        .itemInputs('gtceu:lithium_dust')
+        .inputFluids(GTMaterials.Deuterium.getFluid(144))
+        .itemOutputs('1x tfg:lithium_deuteride_dust')
+        .duration(200)
+        .EUt(2048)
+    //#region Table recipies
 
     event.shaped(
     Item.of('crusty_chunks:grenade'),
@@ -140,7 +145,7 @@ ServerEvents.recipes(event => {
     ],
     {
         A: 'crusty_chunks:impact_fuze',
-        B: 'gtceu:gunpowder',
+        B: 'minecraft:gunpowder',
         C: 'gtceu:steel_plate',
         D: 'gtceu:steel_rod'
     })
@@ -154,7 +159,7 @@ ServerEvents.recipes(event => {
     ],
     {
         A: 'crusty_chunks:impact_fuze',
-        B: 'gtceu:gunpowder',
+        B: 'minecraft:gunpowder',
         C: 'gtceu:steel_plate',
     })
 
@@ -220,7 +225,7 @@ ServerEvents.recipes(event => {
     ],
     {
         A: 'crusty_chunks:impact_fuze',
-        B: 'gtceu:gunpowder',
+        B: 'minecraft:gunpowder',
         C: 'gtceu:steel_plate',
         D: 'vintageimprovements:aluminum_sheet'
     })
@@ -250,7 +255,7 @@ ServerEvents.recipes(event => {
     ],
     {
         A: 'crusty_chunks:impact_fuze',
-        B: 'gtceu:gunpowder',
+        B: 'minecraft:gunpowder',
         C: 'gtceu:steel_plate',
         D: 'vintageimprovements:aluminum_sheet'
     })
@@ -279,7 +284,7 @@ ServerEvents.recipes(event => {
     {
         A: '#gtceu:circuits/hv',
         B: 'tfc:lens',
-        C: 'gtceu:titanium_plate',
+        C: 'gtceu:stainless_steel_plate',
         D: 'crusty_chunks:redstone_tnt',
         E: 'gtceu:exquisite_sodalite_gem'
     })
@@ -294,7 +299,7 @@ ServerEvents.recipes(event => {
     {
         A: '#gtceu:circuits/hv',
         B: 'crusty_chunks:redstone_tnt',
-        C: 'gtceu:titanium_plate',
+        C: 'gtceu:stainless_steel_plate',
         E: 'ad_astra:radio'
     })
 
@@ -351,7 +356,7 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({input: 'crusty_chunks:steel_ingot'})
-    event.remove({input: 'crusty_chunks:steel_plate'})
+    event.remove({input: 'crusty_chunks:steelplate'})
 
     event.shaped(
     Item.of('crusty_chunks:ordinance_inline_fission_warhead'),
@@ -361,10 +366,10 @@ ServerEvents.recipes(event => {
         'CDC'
     ],
     {
-        A: 'gtceu:titanium_plate',
+        A: 'gtceu:stainless_steel_plate',
         B: 'crusty_chunks:fission_bomb',
         C: '#gtceu:circuits/hv',
-        D: 'minecraft:redstone_repeater'
+        D: 'minecraft:repeater'
     })
 
     event.shaped(
@@ -375,7 +380,7 @@ ServerEvents.recipes(event => {
         'ADA'
     ],
     {
-        A: 'gtceu:titanium_plate',
+        A: 'gtceu:stainless_steel_plate',
         B: 'crusty_chunks:impact_fuze',
         C: 'minecraft:gunpowder',
         D: 'gtceu:beryllium_ingot'
@@ -389,7 +394,7 @@ ServerEvents.recipes(event => {
         'ABA'
     ],
     {
-        A: 'gtceu:titanium_plate',
+        A: 'gtceu:stainless_steel_plate',
         B: 'crusty_chunks:shielding_component',
         C: '#gtceu:circuits/hv',
         D: 'gtceu:uranium_235_ingot'
@@ -403,7 +408,7 @@ ServerEvents.recipes(event => {
         'ABA'
     ],
     {
-        A: 'gtceu:titanium_plate',
+        A: 'gtceu:stainless_steel_plate',
         B: 'gtceu:beryllium_ingot',
         C: 'minecraft:gunpowder',
         D: 'gtceu:uranium_235_ingot'
@@ -420,6 +425,69 @@ ServerEvents.recipes(event => {
         A: 'gtceu:small_steel_gear',
         B: 'gtceu:steel_plate',
         C: 'minecraft:gunpowder',
+    })
+
+    event.shaped(
+    Item.of('crusty_chunks:thermo_nuclear_fuel'),
+    [
+        'ABA',
+        'CCC',
+        'ABA'
+    ],
+    {
+        A: 'gtceu:uranium_235_ingot',
+        B: 'gtceu:titanium_ingot',
+        C: 'tfg:lithium_deuteride_dust',
+    })
+
+    event.shaped(
+    Item.of('crusty_chunks:fusion_core'),
+    [
+        'ABA',
+        'CCC',
+        'ABA'
+    ],
+    {
+        A: 'gtceu:uranium_235_ingot',
+        B: 'crusty_chunks:shielding_component',
+        C: 'crusty_chunks:thermo_nuclear_fuel',
+    })
+
+    event.shaped(
+    Item.of('crusty_chunks:ordinance_inline_fusion_warhead_stage_1'),
+    [
+        ' A ',
+        'ABA',
+        'CDC'
+    ],
+    {
+        A: 'gtceu:titanium_plate',
+        B: 'crusty_chunks:fusion_bomb',
+        C: '#gtceu:circuits/ev',
+        D: 'minecraft:repeater'
+    })
+    event.shaped(
+    Item.of('crusty_chunks:ordinance_inline_fusion_warhead_stage_2'),
+    [
+        'CAC',
+        'ACA',
+        ' A '
+    ],
+    {
+        A: 'gtceu:titanium_plate',
+        C: '#gtceu:circuits/ev',
+    })
+    event.shaped(
+    Item.of('crusty_chunks:fusion_bomb'),
+    [
+        'ABA',
+        'C C',
+        'ABA'
+    ],
+    {
+        A: 'gtceu:lead_block',
+        B: 'crusty_chunks:shielding_component',
+        C: '#gtceu:circuits/ev'
     })
     //#endregion
 });

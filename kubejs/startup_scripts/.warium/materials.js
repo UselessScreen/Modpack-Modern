@@ -19,4 +19,11 @@ const registerTFGAWariumMaterials = (event) => {
 		.color(0x332816)
 		.secondaryColor(0x674c24)
 		.iconSet(GTMaterialIconSet.RADIOACTIVE)
+
+    event.create('tfg:lithium_deuteride')
+    	.dust()
+		.iconSet(GTMaterialIconSet.SHINY)
+		.color(0x332816)
+		.secondaryColor(0x674c24)
+		.iconSet(GTMaterialIconSet.RADIOACTIVE)
 };
