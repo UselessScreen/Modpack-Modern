@@ -140,6 +140,46 @@ TFCEvents.worldgenData(event => {
             })
         }
     )
+    add_psych_crop(
+        event,
+        'wild_belladonna',
+        'psychedelicraft:belladonna',
+        {
+            age: '5'
+        },
+        [30, 15, 4],
+        placement => {
+            placement.rarityFilter(10)
+            placement.inSquare()
+            placement.climate(climate => {
+                climate.minTemp(0)
+                climate.maxTemp(100)
+                climate.minRain(0)
+                climate.maxRain(400)
+                climate.maxForest('normal')
+            })
+        }
+    )
+    add_psych_crop(
+        event,
+        'wild_jimsonweed',
+        'psychedelicraft:jimsonweed',
+        {
+            age: '5'
+        },
+        [30, 15, 4],
+        placement => {
+            placement.rarityFilter(10)
+            placement.inSquare()
+            placement.climate(climate => {
+                climate.minTemp(0)
+                climate.maxTemp(100)
+                climate.minRain(0)
+                climate.maxRain(400)
+                climate.maxForest('normal')
+            })
+        }
+    )
 //#endregion
 })
 ServerEvents.tags('worldgen/placed_feature', event => {
@@ -148,4 +188,6 @@ ServerEvents.tags('worldgen/placed_feature', event => {
     event.add('tfc:feature/crops', 'kubejs_tfc:wild_tobacco_patch')
     event.add('tfc:feature/crops', 'kubejs_tfc:wild_coca_patch')
     event.add('tfc:feature/crops', 'kubejs_tfc:wild_hop_patch')
+    event.add('tfc:feature/crops', 'kubejs_tfc:wild_belladonna_patch')
+    event.add('tfc:feature/crops', 'kubejs_tfc:wild_jimsonweed_patch')
 })
