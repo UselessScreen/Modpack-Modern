@@ -11279,6 +11279,74 @@
             ]
         },
         {
+            "pakku_id": "XUQUCTJPbdDtjnzN",
+            "pakku_links": [
+                "fR2my61zK1ySP67C"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "mmmmmmmmmmmm",
+                "modrinth": "mmmmmmmmmmmm"
+            },
+            "name": {
+                "curseforge": "MmmMmmMmmMmm (Target Dummy)",
+                "modrinth": "MmmMmmMmmMmm"
+            },
+            "id": {
+                "curseforge": "225738",
+                "modrinth": "Adega8YN"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "dummmmmmy-1.20-2.0.12-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7963/208/dummmmmmy-1.20-2.0.12-forge.jar",
+                    "id": "7963208",
+                    "parent_id": "225738",
+                    "hashes": {
+                        "sha1": "3b6da54436955ea2ca6e8891ef69d0f6621ab878",
+                        "md5": "cce8b85852b9a3fff8570a19ec3d9e90"
+                    },
+                    "required_dependencies": [
+                        "499980"
+                    ],
+                    "size": 839685,
+                    "date_published": "2026-04-21T21:47:43.543Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "dummmmmmy-1.20-2.0.12-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Adega8YN/versions/c1HMqDvI/dummmmmmy-1.20-2.0.12-forge.jar",
+                    "id": "c1HMqDvI",
+                    "parent_id": "Adega8YN",
+                    "hashes": {
+                        "sha512": "3ad3237a847cdbfc93df1eb0eaa75552e9a1aca871e04106948317ee930b04e6e1d84fb776f3d21bd17ceb5bf033833562bf7294c7579a4e6f5abbf86f1aa32f",
+                        "sha1": "3b6da54436955ea2ca6e8891ef69d0f6621ab878"
+                    },
+                    "required_dependencies": [
+                        "twkfQtEc"
+                    ],
+                    "size": 839685,
+                    "date_published": "2026-04-21T21:47:50.881690Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vLkSeib1zFzTMcPF",
             "type": "MOD",
             "side": "BOTH",
@@ -17053,6 +17121,73 @@
                     ],
                     "size": 10913561,
                     "date_published": "2026-06-08T16:56:22.163Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "BacHsFTj5JYU6M9z",
+            "pakku_links": [
+                "ihA4iuyUc3fA0D4q"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "warium",
+                "modrinth": "warium"
+            },
+            "name": {
+                "curseforge": "Warium",
+                "modrinth": "Warium"
+            },
+            "id": {
+                "curseforge": "1123901",
+                "modrinth": "xgjvEen1"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Warium 1.2.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7629/932/Warium 1.2.7.jar",
+                    "id": "7629932",
+                    "parent_id": "1123901",
+                    "hashes": {
+                        "sha1": "528d81630a23fb4004e3abdd99b16bd225cd1e92",
+                        "md5": "b3f6bcfc347b2be9f6643e67483f80ab"
+                    },
+                    "required_dependencies": [
+                        "388172"
+                    ],
+                    "size": 12616085,
+                    "date_published": "2026-02-15T18:14:13.387Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Warium 1.2.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/xgjvEen1/versions/4oIhAhRz/Warium 1.2.7.jar",
+                    "id": "4oIhAhRz",
+                    "parent_id": "xgjvEen1",
+                    "hashes": {
+                        "sha512": "b66feecd63e77697be9ca76c673de9e378c4bb24c32db310f62a4e0abf66a4a0ff8fb105775091b69f8891132ca29be7230857e285f870d1c89a7e655fd8e990",
+                        "sha1": "528d81630a23fb4004e3abdd99b16bd225cd1e92"
+                    },
+                    "required_dependencies": [],
+                    "size": 12616085,
+                    "date_published": "2026-02-15T18:14:20.466304Z"
                 }
             ]
         },
