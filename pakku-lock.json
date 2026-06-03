@@ -13066,7 +13066,7 @@
             ]
         },
         {
-            "pakku_id": "BQSwmqix6nBezc3T",
+            "pakku_id": "9bjP74fgVi1U1Ftr",
             "type": "MOD",
             "slug": {
                 "github": "UselessScreen/Psychedelicraft"
@@ -13080,16 +13080,16 @@
             "files": [
                 {
                     "type": "github",
-                    "file_name": "psychedelicraft-1.9.0+1.20.1.jar",
+                    "file_name": "psychedelicraft-1.9.1+1.20.1.jar",
                     "release_type": "release",
-                    "url": "https://github.com/UselessScreen/Psychedelicraft/releases/download/1.9.0+1.20.1/psychedelicraft-1.9.0+1.20.1.jar",
-                    "id": "436795303",
+                    "url": "https://github.com/UselessScreen/Psychedelicraft/releases/download/1.9.1+1.20.1/psychedelicraft-1.9.1+1.20.1.jar",
+                    "id": "437576492",
                     "parent_id": "1253733708",
                     "hashes": {
-                        "sha256": "4159fe3f739ab0f4576577e217aa2d6d034e8607f56e0d9003c223578ede48c2"
+                        "sha256": "050afe446c43baf6c8b70ba5caeb3901b71c367bdc5778a79e27fc41a3edf88a"
                     },
-                    "size": 5868291,
-                    "date_published": "2026-06-03T01:24:11Z"
+                    "size": 5868670,
+                    "date_published": "2026-06-03T19:52:21Z"
                 }
             ]
         },
