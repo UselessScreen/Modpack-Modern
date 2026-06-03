@@ -3,7 +3,6 @@ StartupEvents.registry('block', event => {
    .displayName('Wild Cannabis')
    .soundType('grass')
    .hardness(1.0)
-
    .renderType('cutout')
    .noCollision()
    .notSolid()

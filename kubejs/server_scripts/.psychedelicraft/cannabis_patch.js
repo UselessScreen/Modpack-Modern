@@ -1,5 +1,6 @@
 TFCEvents.worldgenData(event => {
-    event.simpleBlockState('wild_cannabis_placement', 'psychedelicraft:wild_cannabis', placement => {
+    // event.simpleBlockState('wild_cannabis_placement', 'psychedelicraft:cannabis', placement => {
+    event.simpleBlockState('wild_cannabis_placement', 'psychedelicraft:cannabis[age=0,growing=false,natural=true]', placement => {
         placement.heightMap('world_surface_wg')
         placement.jsonPlacement({
             type: 'block_predicate_filter',
@@ -10,8 +11,12 @@ TFCEvents.worldgenData(event => {
             predicate: {
                 type: 'would_survive',
                 state: {
-                    Name: 'psychedelicraft:wild_cannabis',
-                    Properties: {}
+                    Name: 'psychedelicraft:cannabis',
+                    Properties: {
+                        age: '0',
+                        growing: 'false',
+                        natural: 'true'
+                    }
                 }
             }
         })
