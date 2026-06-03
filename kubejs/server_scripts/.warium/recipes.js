@@ -42,7 +42,7 @@ ServerEvents.recipes(event => {
         .duration(200)
         .EUt(30)
 
-    //crafting table recipies
+    //#region Crafting table recipies
 
     event.shaped(
     Item.of('crusty_chunks:grenade'),
@@ -421,4 +421,5 @@ ServerEvents.recipes(event => {
         B: 'gtceu:steel_plate',
         C: 'minecraft:gunpowder',
     })
+    //#endregion
 });
