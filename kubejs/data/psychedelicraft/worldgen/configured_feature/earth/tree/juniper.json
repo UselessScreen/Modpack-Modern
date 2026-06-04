@@ -1,0 +1,9 @@
+{
+	"type": "tfc:multiple",
+	"config": {
+		"features": [
+			"psychedelicraft:earth/tree/juniper_dirt",
+			"psychedelicraft:earth/tree/juniper_dead"
+		]
+	}
+}
