@@ -161,8 +161,8 @@ TFCEvents.worldgenData(event => {
 	event.forestEntry('psychedelicraft:juniper_forest_entry',
 		climate => {
 			climate.maxTemp(50)
-			climate.minTemp(-109)
-			climate.maxRain(0)
+			climate.minTemp(0)
+			climate.minRain(0)
 			climate.fuzzy(true)
 		},
 		'psychedelicraft:juniper_wood', // bush log
@@ -196,6 +196,5 @@ function registerTFGForestConfiguredFeatures(event) {
 	event.add('tfg:mars_forest_entries', 'tfg:mars/strophar_forest_entry')
 	event.add('tfg:mars_forest_entries', 'tfg:mars/alphacene_forest_entry')
 	event.add('tfg:mars_forest_entries', 'tfg:mars/glacian_forest_entry')
-	event.add('tfg:mars_forest_entries', 'psychedelicraft:juniper_forest_entry')
 	event.add('tfc:feature/forest_entries', 'psychedelicraft:juniper_forest_entry')
 }
