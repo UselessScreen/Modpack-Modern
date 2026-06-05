@@ -39,14 +39,14 @@ TFCEvents.worldgenData(event => {
         },
         [30, 15, 4],
         placement => {
-            placement.rarityFilter(10)
+            placement.rarityFilter(40)
             placement.inSquare()
             placement.climate(climate => {
                 climate.minTemp(0)
-                climate.maxTemp(100)
-                climate.minRain(0)
+                climate.maxTemp(27)
+                climate.minRain(150)
                 climate.maxRain(400)
-                climate.maxForest('normal')
+                climate.maxForest('edge')
             })
         }
     )
@@ -62,14 +62,14 @@ TFCEvents.worldgenData(event => {
         },
         [30, 15, 4], //change these ([tries, xzSpread, ySpread]) and all of the other stuff
         placement => {
-            placement.rarityFilter(10)
+            placement.rarityFilter(25)
             placement.inSquare()
             placement.climate(climate => {
-                climate.minTemp(0)
-                climate.maxTemp(100)
-                climate.minRain(0)
-                climate.maxRain(400)
-                climate.maxForest('normal')
+                climate.minTemp(15)
+                climate.maxTemp(30)
+                climate.minRain(250)
+                climate.maxRain(600)
+                climate.minForest('normal')
             })
         }
     )
@@ -85,14 +85,14 @@ TFCEvents.worldgenData(event => {
         },
         [30, 15, 4], //change these ([tries, xzSpread, ySpread]) and all of the other stuff
         placement => {
-            placement.rarityFilter(10)
+            placement.rarityFilter(50)
             placement.inSquare()
             placement.climate(climate => {
-                climate.minTemp(0)
-                climate.maxTemp(100)
-                climate.minRain(0)
-                climate.maxRain(400)
-                climate.maxForest('normal')
+                climate.minTemp(20)
+                climate.maxTemp(30)
+                climate.minRain(250)
+                climate.maxRain(500)
+                climate.maxForest('edge')
             })
         }
     )
@@ -107,13 +107,13 @@ TFCEvents.worldgenData(event => {
         },
         [30, 15, 4],
         placement => {
-            placement.rarityFilter(10)
+            placement.rarityFilter(30)
             placement.inSquare()
             placement.climate(climate => {
-                climate.minTemp(0)
-                climate.maxTemp(100)
-                climate.minRain(0)
-                climate.maxRain(400)
+                climate.minTemp(17)
+                climate.maxTemp(27)
+                climate.minRain(300)
+                climate.maxRain(600)
                 climate.maxForest('normal')
             })
         }
@@ -129,14 +129,14 @@ TFCEvents.worldgenData(event => {
         },
         [30, 15, 4],
         placement => {
-            placement.rarityFilter(10)
+            placement.rarityFilter(40)
             placement.inSquare()
             placement.climate(climate => {
-                climate.minTemp(0)
-                climate.maxTemp(100)
-                climate.minRain(0)
-                climate.maxRain(400)
-                climate.maxForest('normal')
+                climate.minTemp(8)
+                climate.maxTemp(19)
+                climate.minRain(100)
+                climate.maxRain(250)
+                climate.maxForest('edge')
             })
         }
     )
@@ -149,14 +149,14 @@ TFCEvents.worldgenData(event => {
         },
         [30, 15, 4],
         placement => {
-            placement.rarityFilter(10)
+            placement.rarityFilter(25)
             placement.inSquare()
             placement.climate(climate => {
-                climate.minTemp(0)
-                climate.maxTemp(100)
-                climate.minRain(0)
-                climate.maxRain(400)
-                climate.maxForest('normal')
+                climate.minTemp(8)
+                climate.maxTemp(18)
+                climate.minRain(125)
+                climate.maxRain(275)
+                climate.minForest('normal')
             })
         }
     )
@@ -169,14 +169,14 @@ TFCEvents.worldgenData(event => {
         },
         [30, 15, 4],
         placement => {
-            placement.rarityFilter(10)
+            placement.rarityFilter(25)
             placement.inSquare()
             placement.climate(climate => {
-                climate.minTemp(0)
-                climate.maxTemp(100)
-                climate.minRain(0)
-                climate.maxRain(400)
-                climate.maxForest('normal')
+                climate.minTemp(18)
+                climate.maxTemp(35)
+                climate.minRain(125)
+                climate.maxRain(250)
+                climate.maxForest('edge')
             })
         }
     )
