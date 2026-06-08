@@ -4013,6 +4013,78 @@
             ]
         },
         {
+            "pakku_id": "pBLJ4JFc5sJuqL2T",
+            "pakku_links": [
+                "Nw8xTCQngHA15ilh",
+                "DHjT7SwZHAwxEjDy"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-big-cannons",
+                "modrinth": "create-big-cannons"
+            },
+            "name": {
+                "curseforge": "Create Big Cannons",
+                "modrinth": "Create Big Cannons"
+            },
+            "id": {
+                "curseforge": "646668",
+                "modrinth": "GWp4jCJj"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8169/547/createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+                    "id": "8169547",
+                    "parent_id": "646668",
+                    "hashes": {
+                        "sha1": "d9be0ace572fe54be904da1bb0b0cc8711db3b70",
+                        "md5": "aef557085e3d995f8838061a3ce4f0be"
+                    },
+                    "required_dependencies": [
+                        "328085",
+                        "1279407"
+                    ],
+                    "size": 4058306,
+                    "date_published": "2026-05-30T13:12:57Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/GWp4jCJj/versions/ZRgu5o3x/createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+                    "id": "ZRgu5o3x",
+                    "parent_id": "GWp4jCJj",
+                    "hashes": {
+                        "sha512": "11b919dcce377dfce563c9250e287e870ac22b622ac9b4a4839bcc2ea8b894956d42632ef5f9d2701534aa3eba6f896761e26ada0e6bbd2042353507164b7dd0",
+                        "sha1": "d9be0ace572fe54be904da1bb0b0cc8711db3b70"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc",
+                        "B3pb093D"
+                    ],
+                    "size": 4058306,
+                    "date_published": "2026-05-31T11:08:37.249152Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "XsooZy6xhTD9iN00",
             "pakku_links": [
                 "Nw8xTCQngHA15ilh"
@@ -4668,6 +4740,74 @@
                     ],
                     "size": 20245,
                     "date_published": "2024-03-28T06:27:19.888846Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dXsl9UPrQENNwjIS",
+            "pakku_links": [
+                "Nw8xTCQngHA15ilh"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "create-sound-of-steam",
+                "modrinth": "create-sound-of-steam"
+            },
+            "name": {
+                "curseforge": "Create: Sound of Steam",
+                "modrinth": "Create: Sound of Steam"
+            },
+            "id": {
+                "curseforge": "1196142",
+                "modrinth": "yGttHo06"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "pipeorgans-0.8.2+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7315/831/pipeorgans-0.8.2+1.20.1.jar",
+                    "id": "7315831",
+                    "parent_id": "1196142",
+                    "hashes": {
+                        "sha1": "de66515d355f60452ac1fede6e3e2d52eac6da51",
+                        "md5": "d8ceeb77f6f7e503e9104b2ba16628f8"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 6617237,
+                    "date_published": "2025-12-10T12:52:53.157Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "pipeorgans-0.8.2+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/yGttHo06/versions/ljMYelZu/pipeorgans-0.8.2+1.20.1.jar",
+                    "id": "ljMYelZu",
+                    "parent_id": "yGttHo06",
+                    "hashes": {
+                        "sha512": "eae126cf10ba8a75818f16ebd405ac48a8093c01984cd99b0620d731a2471d4c44e0ba1f9c29c39230cf71ce5bb730ef085d3f245c417df707f1bf87c0caad1a",
+                        "sha1": "de66515d355f60452ac1fede6e3e2d52eac6da51"
+                    },
+                    "required_dependencies": [
+                        "LNytGWDc"
+                    ],
+                    "size": 6617237,
+                    "date_published": "2025-12-10T12:53:46.177551Z"
                 }
             ]
         },
@@ -13536,6 +13676,43 @@
                     "required_dependencies": [],
                     "size": 1798244,
                     "date_published": "2025-02-12T21:26:49.669723Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "DHjT7SwZHAwxEjDy",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ritchies-projectile-library"
+            },
+            "name": {
+                "curseforge": "Ritchie's Projectile Library"
+            },
+            "id": {
+                "curseforge": "1279407"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7292/523/ritchiesprojectilelib-2.1.1-mc.1.20.1-forge.jar",
+                    "id": "7292523",
+                    "parent_id": "1279407",
+                    "hashes": {
+                        "sha1": "3e13ad86b2cc4107b8a18eec1d980ed19cdc37aa",
+                        "md5": "75c9b3b1a1ac271342b7e7161b4da2f2"
+                    },
+                    "required_dependencies": [],
+                    "size": 78625,
+                    "date_published": "2025-12-04T04:33:50.273Z"
                 }
             ]
         },
