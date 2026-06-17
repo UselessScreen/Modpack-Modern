@@ -18356,6 +18356,34 @@
                     "date_published": "2024-03-24T18:17:18.578454Z"
                 }
             ]
+        },
+        {
+            "pakku_id": "Q5Q4jxjgRnOWmfAM",
+            "type": "MOD",
+            "slug": {
+                "github": "UselessScreen/trmt-tfc"
+            },
+            "name": {
+                "github": "trmt-tfc"
+            },
+            "id": {
+                "github": "1258420124"
+            },
+            "files": [
+                {
+                    "type": "github",
+                    "file_name": "trmt_tfc-1.1.2.jar",
+                    "release_type": "release",
+                    "url": "https://github.com/UselessScreen/trmt-tfc/releases/download/v1.1.2/trmt_tfc-1.1.2.jar",
+                    "id": "449832337",
+                    "parent_id": "1258420124",
+                    "hashes": {
+                        "sha256": "3ac91a3bab8887f736545100b9cf3fcd8bb322a2cdc025e6c2f5c207be054547"
+                    },
+                    "size": 331113,
+                    "date_published": "2026-06-17T03:06:24Z"
+                }
+            ]
         }
     ],
     "lockfile_version": 2
