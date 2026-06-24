@@ -1381,6 +1381,76 @@
             ]
         },
         {
+            "pakku_id": "lLnKW9SjUNeeOW15",
+            "pakku_links": [
+                "ihA4iuyUc3fA0D4q",
+                "upHKXf234rQJAqhD"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "arphex",
+                "modrinth": "arphex"
+            },
+            "name": {
+                "curseforge": "Arthropod Phobia Expansions + Horror Bosses (Spiders, Arachnophobia)",
+                "modrinth": "Arthropod Phobia Expansions + Horror Bosses / Arachnophobia"
+            },
+            "id": {
+                "curseforge": "967672",
+                "modrinth": "k0RPP4IO"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ArPhEx-5.0.2-forge-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7466/434/ArPhEx-5.0.2-forge-1.20.1.jar",
+                    "id": "7466434",
+                    "parent_id": "967672",
+                    "hashes": {
+                        "sha1": "cb754075e0ca32c46da38a38de0abb589eb5460c",
+                        "md5": "03a0ae89350f5fec0157d0748ac3e6a9"
+                    },
+                    "required_dependencies": [
+                        "388172"
+                    ],
+                    "size": 13527755,
+                    "date_published": "2026-01-16T01:52:22.107Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "ArPhEx-5.0.2-forge-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/k0RPP4IO/versions/2QgFGJeS/ArPhEx-5.0.2-forge-1.20.1.jar",
+                    "id": "2QgFGJeS",
+                    "parent_id": "k0RPP4IO",
+                    "hashes": {
+                        "sha512": "6e735a63384dd154fd5ce492c52563088dc74bcf6c99ec70edd7e2764ea494e20f16527a6db42b9a546a7350e96a442cfa242792eee92a13d27e0975fc408eea",
+                        "sha1": "cb754075e0ca32c46da38a38de0abb589eb5460c"
+                    },
+                    "required_dependencies": [
+                        "dOGM7ccu",
+                        "8BmcQJ2H"
+                    ],
+                    "size": 13527755,
+                    "date_published": "2026-01-16T02:06:48.463519Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Wg44U8f1K4nbIsj1",
             "pakku_links": [
                 "6dYejgNtpJaOppvV",
@@ -12305,6 +12375,67 @@
             ]
         },
         {
+            "pakku_id": "upHKXf234rQJAqhD",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "nyfs-spiders",
+                "modrinth": "nyfs-spiders"
+            },
+            "name": {
+                "curseforge": "Nyf's Spiders",
+                "modrinth": "Nyf's Spiders"
+            },
+            "id": {
+                "curseforge": "686058",
+                "modrinth": "dOGM7ccu"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "nyfsspiders-Forge-1.20.1-3.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7652/359/nyfsspiders-Forge-1.20.1-3.0.1.jar",
+                    "id": "7652359",
+                    "parent_id": "686058",
+                    "hashes": {
+                        "sha1": "10fe91f66dcc6613e58ceddbfb1f4e67c2ec3bbb",
+                        "md5": "bf388ecf9b4e224de157ee63ca539c22"
+                    },
+                    "required_dependencies": [],
+                    "size": 842120,
+                    "date_published": "2026-02-20T06:58:24.583Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "nyfsspiders-Forge-1.20.1-3.0.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/dOGM7ccu/versions/INtO3mib/nyfsspiders-Forge-1.20.1-3.0.1.jar",
+                    "id": "INtO3mib",
+                    "parent_id": "dOGM7ccu",
+                    "hashes": {
+                        "sha512": "8215710a2f6229189ee6cb914b7e9add96c91bf1a25539e105f84d8b258fb01893f8213650272603b0e17ec24aa054386aba2a7b2d837ecaf5a2fc2a66bd4ef2",
+                        "sha1": "10fe91f66dcc6613e58ceddbfb1f4e67c2ec3bbb"
+                    },
+                    "required_dependencies": [],
+                    "size": 842120,
+                    "date_published": "2026-02-20T06:58:24.360843Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "cKWnkCtgEdPaLZ1d",
             "type": "MOD",
             "side": "BOTH",
@@ -17047,6 +17178,51 @@
             ]
         },
         {
+            "pakku_id": "cTCSzIpQ1uUUctAR",
+            "pakku_links": [
+                "ihA4iuyUc3fA0D4q"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "the-growling-man",
+                "modrinth": "growling-man"
+            },
+            "name": {
+                "curseforge": "The Growling Man",
+                "modrinth": "Growling Man"
+            },
+            "id": {
+                "curseforge": "1349826",
+                "modrinth": "1vDO8Pd5"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "growling_man-1.0.1-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7030/601/growling_man-1.0.1-1.20.1.jar",
+                    "id": "7030601",
+                    "parent_id": "1349826",
+                    "hashes": {
+                        "sha1": "112f5ab5c2336187963e30ea1c48b61be58e145f",
+                        "md5": "56d4bbaa269422152d40983c2907d82a"
+                    },
+                    "required_dependencies": [
+                        "388172"
+                    ],
+                    "size": 2658355,
+                    "date_published": "2025-09-24T22:53:45.617Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "jn9KICtb32TaMbxc",
             "type": "MOD",
             "slug": {
@@ -18354,6 +18530,35 @@
                     ],
                     "size": 693301,
                     "date_published": "2024-03-24T18:17:18.578454Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2Hsym1qGldHLGm8U",
+            "type": "MOD",
+            "slug": {
+                "github": "ThePheonix3k/not-deer-tfg"
+            },
+            "name": {
+                "github": "not-deer-tfg"
+            },
+            "id": {
+                "github": "1279456801"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "github",
+                    "file_name": "stupid_deer-1.3.0-forge-1.20.1.jar",
+                    "release_type": "release",
+                    "url": "https://github.com/ThePheonix3k/not-deer-tfg/releases/download/1.0/stupid_deer-1.3.0-forge-1.20.1.jar",
+                    "id": "456867245",
+                    "parent_id": "1279456801",
+                    "hashes": {
+                        "sha256": "8fbb3fb74dccbfc2ca11d5487939ead353cb996d1a3e523547026ba590ab0f33"
+                    },
+                    "size": 1388155,
+                    "date_published": "2026-06-24T17:52:03Z"
                 }
             ]
         },

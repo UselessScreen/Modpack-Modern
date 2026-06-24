@@ -215,9 +215,18 @@ function registerTFGMarsBiomeTags(event) {
 	global.MARS_BIOMES.forEach(biome => {
 		event.add('tfg:mars_biomes', biome)
 	})
-
+//             "tfg:earth/dune_sea",
+//             "tfg:earth/rocky_dunes",
+//             "tfg:earth/rocky_dunes_shore",
+//             "tfg:earth/grassy_dunes",
+//             "tfg:earth/dunes_shore",
 	event.add('sandworm_mod:can_spawn_sandworms', 'tfg:mars/martian_dunes')
 	event.add('sandworm_mod:can_spawn_sandworms', 'tfg:mars/martian_deep_desert')
+	event.add('sandworm_mod:can_spawn_sandworms', 'tfg:earth/dune_sea')
+	event.add('sandworm_mod:can_spawn_sandworms', 'tfg:earth/rocky_dunes')
+	event.add('sandworm_mod:can_spawn_sandworms', 'tfg:earth/rocky_dunes_shore')
+	event.add('sandworm_mod:can_spawn_sandworms', 'tfg:earth/grassy_dunes')
+	event.add('sandworm_mod:can_spawn_sandworms', 'tfg:earth/dunes_shore')
 	event.remove('sandworm_mod:can_spawn_sandworms', 'minecraft:desert')
 
 	event.add('tfg:has_dark_sand_particles', 'tfg:mars/martian_dunes')
