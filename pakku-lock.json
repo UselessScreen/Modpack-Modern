@@ -8142,47 +8142,6 @@
             ]
         },
         {
-            "pakku_id": "aD2NCe4ItYcYDU7B",
-            "type": "MOD",
-            "side": "SERVER",
-            "slug": {
-                "curseforge": "forgeendertech",
-                "modrinth": "forgeendertech"
-            },
-            "name": {
-                "curseforge": "ForgeEndertech",
-                "modrinth": "ForgeEndertech"
-            },
-            "id": {
-                "curseforge": "244844",
-                "modrinth": "EgS8gGp8"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "ForgeEndertech-1.20.1-11.1.10.1-build.2196.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8169/231/ForgeEndertech-1.20.1-11.1.10.1-build.2196.jar",
-                    "id": "8169231",
-                    "parent_id": "244844",
-                    "hashes": {
-                        "sha1": "182b037e4dc24504eafc754ba684bbdc2c7d5a6c",
-                        "md5": "3371ebe33cdf3943c21ea7458cc13b97"
-                    },
-                    "required_dependencies": [],
-                    "size": 552673,
-                    "date_published": "2026-05-30T11:53:45.133Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "H52TBC03zHXQtZfs",
             "type": "MOD",
             "side": "BOTH",
@@ -12187,40 +12146,6 @@
             ]
         },
         {
-            "pakku_id": "7fN7hSp8tuV433iR",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "naturalist-thats-not-a-deer"
-            },
-            "name": {
-                "curseforge": "Naturalist - That's not a Deer"
-            },
-            "id": {
-                "curseforge": "1134955"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Naturalist_not_a_deerv3.zip",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7014/484/Naturalist_not_a_deerv3.zip",
-                    "id": "7014484",
-                    "parent_id": "1134955",
-                    "hashes": {
-                        "sha1": "a4e8d9c2737d6f18c8fa32ff843dfacb37f94473",
-                        "md5": "1ab11fac32e4cf9a894d19290d2da304"
-                    },
-                    "required_dependencies": [],
-                    "size": 2849774,
-                    "date_published": "2025-09-20T08:21:15.373Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "KKOHP7XIf8ibsOeY",
             "type": "RESOURCE_PACK",
             "slug": {
@@ -13275,52 +13200,6 @@
                     ],
                     "size": 5298162,
                     "date_published": "2025-01-03T12:43:40.830979Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "vYX3MqjetmfekDnY",
-            "pakku_links": [
-                "aD2NCe4ItYcYDU7B"
-            ],
-            "type": "MOD",
-            "side": "BOTH",
-            "slug": {
-                "curseforge": "pollution-of-the-realms",
-                "modrinth": "pollution-of-the-realms"
-            },
-            "name": {
-                "curseforge": "Pollution of the Realms",
-                "modrinth": "Pollution of the Realms"
-            },
-            "id": {
-                "curseforge": "269973",
-                "modrinth": "SN8xUUfR"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "AdPother-1.20.1-8.1.45.0-build.2196.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge",
-                        "neoforge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8169/244/AdPother-1.20.1-8.1.45.0-build.2196.jar",
-                    "id": "8169244",
-                    "parent_id": "269973",
-                    "hashes": {
-                        "sha1": "f37e2dbf49cdae8e649614b34385292f0848105c",
-                        "md5": "a4094a064f41ac510ef101dfcad9c36f"
-                    },
-                    "required_dependencies": [
-                        "244844"
-                    ],
-                    "size": 865980,
-                    "date_published": "2026-05-30T11:56:43.593Z"
                 }
             ]
         },
@@ -17299,19 +17178,23 @@
             ]
         },
         {
-            "pakku_id": "2QKbeXj9K8xh8zRp",
+            "pakku_id": "cTCSzIpQ1uUUctAR",
             "pakku_links": [
                 "ihA4iuyUc3fA0D4q"
             ],
             "type": "MOD",
+            "side": "BOTH",
             "slug": {
-                "curseforge": "the-growling-man"
+                "curseforge": "the-growling-man",
+                "modrinth": "growling-man"
             },
             "name": {
-                "curseforge": "The Growling Man"
+                "curseforge": "The Growling Man",
+                "modrinth": "Growling Man"
             },
             "id": {
-                "curseforge": "1349826"
+                "curseforge": "1349826",
+                "modrinth": "1vDO8Pd5"
             },
             "files": [
                 {
