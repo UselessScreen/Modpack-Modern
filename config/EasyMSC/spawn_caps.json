@@ -1,0 +1,9 @@
+{
+  "water_creature": 5,
+  "underground_water_creature": 5,
+  "ambient": 15,
+  "axolotls": 5,
+  "creature": 10,
+  "water_ambient": 20,
+  "monster": 70
+}

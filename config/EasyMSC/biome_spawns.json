@@ -1,0 +1,8 @@
+[
+  "deer=tfg:nether/lush_hollow,tfg:nether/thorny_brambles|CREATURE|8000|1|5",
+  "bloodydeer=tfg:nether/lush_hollow,tfg:nether/thorny_brambles|CREATURE|1250|1|1",
+  "arphexrandom=all|MONSTER|9999|1|1",
+  "standingdeer=tfg:nether/lush_hollow,tfg:nether/thorny_brambles|CREATURE|2500|1|1",
+  "zombiedeer2=tfg:nether/lush_hollow,tfg:nether/thorny_brambles|CREATURE|750|1|1",
+  "termite=all|MONSTER|2500|1|1"
+]

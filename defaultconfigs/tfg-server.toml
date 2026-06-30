@@ -151,7 +151,7 @@
 	#Enables instant snow and ice removal as chunks are loaded in and the temperature is warm enough.
 	enableSnowCorrection = true
 	#The maximum amount of snow update to apply for each correction tick
-	#Range: > 1
+	#Range: > 0
 	snowMaxAccumulationOnUpdate = 256
 
 [tfg_food_effects]
