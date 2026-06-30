@@ -5891,6 +5891,67 @@
             ]
         },
         {
+            "pakku_id": "IiZHTmD5IrRpVHQc",
+            "type": "MOD",
+            "side": "SERVER",
+            "slug": {
+                "curseforge": "easy-mob-spawn-control",
+                "modrinth": "easy-mob-spawn-control"
+            },
+            "name": {
+                "curseforge": "Easy Mob Spawn Control - spawn rate, mob cap, disable bad mobs",
+                "modrinth": "Easy Mob Spawn Control - spawn rate, mob cap, disable bad mobs"
+            },
+            "id": {
+                "curseforge": "1489509",
+                "modrinth": "pTXV6gwq"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "easy_mob_spawn_control-1.4.5.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8340/405/easy_mob_spawn_control-1.4.5.jar",
+                    "id": "8340405",
+                    "parent_id": "1489509",
+                    "hashes": {
+                        "sha1": "f0071da9fbcb6d75402e0d252153dfccc43e761b",
+                        "md5": "97629f7301a751f78e2ba99844d1eff2"
+                    },
+                    "required_dependencies": [],
+                    "size": 249433,
+                    "date_published": "2026-06-29T12:40:54.273Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "easy_mob_spawn_control-1.4.5.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/pTXV6gwq/versions/GJCoLpit/easy_mob_spawn_control-1.4.5.jar",
+                    "id": "GJCoLpit",
+                    "parent_id": "pTXV6gwq",
+                    "hashes": {
+                        "sha512": "9242e5f86a4c952aa7c2a225263d8260aa228ec94c42f62132cf0447a42ede17efcaaae709ebab6e513db8f0a2127fb8db2ef30aee73f52dc0f9b98022afc31b",
+                        "sha1": "f0071da9fbcb6d75402e0d252153dfccc43e761b"
+                    },
+                    "required_dependencies": [],
+                    "size": 249433,
+                    "date_published": "2026-06-29T12:38:21.187961Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "lJv0QH4ufWOkBTs2",
             "pakku_links": [
                 "UYwzsHbcjulcx9ZL"
@@ -12142,6 +12203,40 @@
                     "required_dependencies": [],
                     "size": 3010,
                     "date_published": "2023-12-06T14:17:32.042605Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "bTTsSsg8kEKo4Q4K",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "naturalist-thats-not-a-deer"
+            },
+            "name": {
+                "curseforge": "Naturalist - That's not a Deer"
+            },
+            "id": {
+                "curseforge": "1134955"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Naturalist_not_a_deerv3.zip",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7014/484/Naturalist_not_a_deerv3.zip",
+                    "id": "7014484",
+                    "parent_id": "1134955",
+                    "hashes": {
+                        "sha1": "a4e8d9c2737d6f18c8fa32ff843dfacb37f94473",
+                        "md5": "1ab11fac32e4cf9a894d19290d2da304"
+                    },
+                    "required_dependencies": [],
+                    "size": 2849774,
+                    "date_published": "2025-09-20T08:21:15.373Z"
                 }
             ]
         },
