@@ -7720,6 +7720,138 @@
             ]
         },
         {
+            "pakku_id": "jbnygb2psreX6pMN",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "farmers-delight",
+                "modrinth": "farmers-delight"
+            },
+            "name": {
+                "curseforge": "Farmer's Delight",
+                "modrinth": "Farmer's Delight"
+            },
+            "id": {
+                "curseforge": "398521",
+                "modrinth": "R2OftAxM"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FarmersDelight-1.20.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8083/474/FarmersDelight-1.20.1-1.3.2.jar",
+                    "id": "8083474",
+                    "parent_id": "398521",
+                    "hashes": {
+                        "sha1": "397763ae36dc2e0f526e0338c875850437580157",
+                        "md5": "39459d8e62ef83e36c2b54952dbe2c2f"
+                    },
+                    "required_dependencies": [],
+                    "size": 3313327,
+                    "date_published": "2026-05-13T16:37:44.147Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "FarmersDelight-1.20.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/CsjS7EkP/FarmersDelight-1.20.1-1.3.2.jar",
+                    "id": "CsjS7EkP",
+                    "parent_id": "R2OftAxM",
+                    "hashes": {
+                        "sha512": "3260a78e5d670792923be4d41a7f449aa3f7b4e258f390d4c388d0400e059e2e511d4aa49d9e51d39738a1dbf5507969495c651c7d59736d5b42c3f9691dc3e5",
+                        "sha1": "397763ae36dc2e0f526e0338c875850437580157"
+                    },
+                    "required_dependencies": [],
+                    "size": 3313327,
+                    "date_published": "2026-05-13T16:41:24.087693Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "gTSZROq1rLNx66Iw",
+            "pakku_links": [
+                "jbnygb2psreX6pMN"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "farmers-delight-tfc",
+                "modrinth": "farmers-delight-tfc"
+            },
+            "name": {
+                "curseforge": "Farmer's Delight TFC",
+                "modrinth": "Farmer's Delight TFC"
+            },
+            "id": {
+                "curseforge": "951750",
+                "modrinth": "WXhDTEXL"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FarmersDelightTFC-1.0.6-forge-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5956/017/FarmersDelightTFC-1.0.6-forge-1.20.1.jar",
+                    "id": "5956017",
+                    "parent_id": "951750",
+                    "hashes": {
+                        "sha1": "096efced31db0b99b0f44583ddf674a74f4ed602",
+                        "md5": "f58700a1f92eddcd1658d141c10c4398"
+                    },
+                    "required_dependencies": [
+                        "302973",
+                        "398521"
+                    ],
+                    "size": 382381,
+                    "date_published": "2024-12-02T10:07:51.253Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "FarmersDelightTFC-1.0.6-forge-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/WXhDTEXL/versions/GDjt10B2/FarmersDelightTFC-1.0.6-forge-1.20.1.jar",
+                    "id": "GDjt10B2",
+                    "parent_id": "WXhDTEXL",
+                    "hashes": {
+                        "sha512": "9eff042daefa2d82d0954f5f9e5f1343a6340cd8212d05fb4aaa3b377808d0c482365b6d56836974d8c6639ed0221a4c69d959c263ea8ce02e3b092ea73fbbe6",
+                        "sha1": "096efced31db0b99b0f44583ddf674a74f4ed602"
+                    },
+                    "required_dependencies": [],
+                    "size": 382381,
+                    "date_published": "2025-01-14T17:29:53.247498Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "y66pZ9sU3U8ixNIa",
             "type": "MOD",
             "side": "CLIENT",
@@ -11092,6 +11224,71 @@
             ]
         },
         {
+            "pakku_id": "igW62zE89MhkQl0C",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "longwings",
+                "modrinth": "longwings"
+            },
+            "name": {
+                "curseforge": "Longwings",
+                "modrinth": "Longwings"
+            },
+            "id": {
+                "curseforge": "1277025",
+                "modrinth": "YXWD6pbz"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Longwings-v0.9.5-1.20.1-Forge.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7980/33/Longwings-v0.9.5-1.20.1-Forge.jar",
+                    "id": "7980033",
+                    "parent_id": "1277025",
+                    "hashes": {
+                        "sha1": "67b27eb2b422ef518ade23e97922c4edfbd461cb",
+                        "md5": "686233b3ca11cda144150cb0ce83d90e"
+                    },
+                    "required_dependencies": [],
+                    "size": 1924774,
+                    "date_published": "2026-04-24T23:59:49.750Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Longwings-v0.9.5-1.20.1-Forge.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://cdn.modrinth.com/data/YXWD6pbz/versions/MDdYcVsC/Longwings-v0.9.5-1.20.1-Forge.jar",
+                    "id": "MDdYcVsC",
+                    "parent_id": "YXWD6pbz",
+                    "hashes": {
+                        "sha512": "71e73625f5fb19348c907f61b67c95daccdeaf995c9fa038b6056d2a1b1b616a462183b2dee9db69b5d4f5cb9a06ac7291d1fbabebf5cd27da5c3421e58608f3",
+                        "sha1": "67b27eb2b422ef518ade23e97922c4edfbd461cb"
+                    },
+                    "required_dependencies": [],
+                    "size": 1924774,
+                    "date_published": "2026-04-25T00:34:23.585082Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "9RZJfprxqWyxsrEF",
             "type": "MOD",
             "side": "BOTH",
@@ -14213,6 +14410,71 @@
                     "required_dependencies": [],
                     "size": 92319,
                     "date_published": "2024-02-09T19:06:56.795182Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "H0TbHbNXPhIL6NPo",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "scribble",
+                "modrinth": "scribble"
+            },
+            "name": {
+                "curseforge": "Scribble",
+                "modrinth": "Scribble"
+            },
+            "id": {
+                "curseforge": "1051344",
+                "modrinth": "yXAvIk0x"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Scribble-1.5.1+mc1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6240/189/Scribble-1.5.1+mc1.20.1-forge.jar",
+                    "id": "6240189",
+                    "parent_id": "1051344",
+                    "hashes": {
+                        "sha1": "27c1cf656d8817e489a778a562b7f06711e13a09",
+                        "md5": "05e53557a6e995f25fbdd5bf814b6044"
+                    },
+                    "required_dependencies": [],
+                    "size": 270676,
+                    "date_published": "2025-02-26T17:14:56.613Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Scribble-1.5.1+mc1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/yXAvIk0x/versions/aiNs4ig8/Scribble-1.5.1+mc1.20.1-forge.jar",
+                    "id": "aiNs4ig8",
+                    "parent_id": "yXAvIk0x",
+                    "hashes": {
+                        "sha512": "8253a8185f1321474c51def8a8b43cd6a2c2adfa183a4f4ea83bb9ce0e9d10fac80686be945996644627f6bfa1a770090aee74bc8474920b038129f0e385f6a0",
+                        "sha1": "27c1cf656d8817e489a778a562b7f06711e13a09"
+                    },
+                    "required_dependencies": [],
+                    "size": 270676,
+                    "date_published": "2025-02-26T17:14:56.153351Z"
                 }
             ]
         },
@@ -17639,6 +17901,74 @@
             ]
         },
         {
+            "pakku_id": "FlCpzgOBm6Hga8LY",
+            "pakku_links": [
+                "1RCsMnDdwXXOUKKG"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "unusual-prehistory-2",
+                "modrinth": "unusual-prehistory-2"
+            },
+            "name": {
+                "curseforge": "Unusual Prehistory 2",
+                "modrinth": "Unusual Prehistory 2"
+            },
+            "id": {
+                "curseforge": "1355824",
+                "modrinth": "KwCqEdeN"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Unusual-Prehistory-2-1.20.1-1.4.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7865/890/Unusual-Prehistory-2-1.20.1-1.4.3.jar",
+                    "id": "7865890",
+                    "parent_id": "1355824",
+                    "hashes": {
+                        "sha1": "107ad0245caab26a9ba0a7ea5188b7ed04b1a0bb",
+                        "md5": "f1efbbaaf85a31a1ca9d0029d26bc3a7"
+                    },
+                    "required_dependencies": [
+                        "306770"
+                    ],
+                    "size": 20257763,
+                    "date_published": "2026-04-03T04:53:26.943Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "Unusual-Prehistory-2-1.20.1-1.4.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/KwCqEdeN/versions/vqKSOCni/Unusual-Prehistory-2-1.20.1-1.4.3.jar",
+                    "id": "vqKSOCni",
+                    "parent_id": "KwCqEdeN",
+                    "hashes": {
+                        "sha512": "60d7287e8ce1542c9234ef06d7f4976000a0b8ebfdb005c821b4a4b30c6ed4e7386f5e74331f0dd639683f6be1d855397e243672c6e0ff525a347a4a89a2ee8d",
+                        "sha1": "107ad0245caab26a9ba0a7ea5188b7ed04b1a0bb"
+                    },
+                    "required_dependencies": [
+                        "nU0bVIaL"
+                    ],
+                    "size": 20257763,
+                    "date_published": "2026-04-03T04:54:23.736736Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Z3KE8gJoOsh7EQNZ",
             "type": "RESOURCE_PACK",
             "side": "CLIENT",
@@ -18637,6 +18967,35 @@
                     },
                     "size": 331113,
                     "date_published": "2026-06-17T03:06:24Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "QE4Q3XeZc5oZagLW",
+            "type": "MOD",
+            "slug": {
+                "github": "mazenzai/voxy"
+            },
+            "name": {
+                "github": "voxy"
+            },
+            "id": {
+                "github": "1205364048"
+            },
+            "redistributable": false,
+            "files": [
+                {
+                    "type": "github",
+                    "file_name": "voxy-0.2.13-alpha.jar",
+                    "release_type": "release",
+                    "url": "https://github.com/mazenzai/voxy/releases/download/Voxy/voxy-0.2.13-alpha.jar",
+                    "id": "391921090",
+                    "parent_id": "1205364048",
+                    "hashes": {
+                        "sha256": "e71e54dbbb034601ae6fad694502928764815f6ea06b6cb5bd4b46d31bce3828"
+                    },
+                    "size": 12557188,
+                    "date_published": "2026-04-08T22:39:26Z"
                 }
             ]
         }
