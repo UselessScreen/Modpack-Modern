@@ -9,9 +9,9 @@ PlayerEvents.tick(event => {
     }
 });
 
-// Separately, log sanity changes in chat
-SanityEvents.change(event => {
-    const { player } = event;
-    const newSanity = event.getSanity();
-    player.tell(`Sanity: ${newSanity}/100`);
-});
+// // Separately, log sanity changes in chat
+// SanityEvents.change(event => {
+//     const { player } = event;
+//     const newSanity = event.getSanity();
+//     player.tell(`Sanity: ${newSanity}/100`);
+// });
