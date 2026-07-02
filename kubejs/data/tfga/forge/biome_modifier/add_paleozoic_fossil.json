@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": ["tfg:nether/lava_floes", "tfg:nether/tar_pools"],
+  "features": ["tfga:paleozoic_fossil"],
+  "step": "underground_decoration"
+}
