@@ -96,7 +96,6 @@
 		"minecraft:cut_sandstone",
 		"minecraft:cut_sandstone_slab",
 		"minecraft:chiseled_sandstone",
-		"minecraft:sand",
 
 		"minecraft:horn_coral",
 		"minecraft:horn_coral_fan",
@@ -427,7 +426,6 @@
 		"minecraft:rooted_dirt",
 		"minecraft:mud",
 		"minecraft:netherite_scrap",
-		"minecraft:gravel",
 		"minecraft:tall_grass",
 		"minecraft:sculk_vein",
 		"minecraft:lily_pad",
