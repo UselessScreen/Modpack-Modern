@@ -13859,6 +13859,135 @@
             ]
         },
         {
+            "pakku_id": "WtEcFD3Vf3GJpLHs",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "reliable-recipes",
+                "modrinth": "reliable-recipes"
+            },
+            "name": {
+                "curseforge": "Reliable Recipes",
+                "modrinth": "Reliable Recipes"
+            },
+            "id": {
+                "curseforge": "1414959",
+                "modrinth": "Hl4ARA1z"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "reliable_recipes-forge-1.20.1-1.13.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8072/207/reliable_recipes-forge-1.20.1-1.13.2.jar",
+                    "id": "8072207",
+                    "parent_id": "1414959",
+                    "hashes": {
+                        "sha1": "53ec9d467c81962ce35cc031179b269859b1b76f",
+                        "md5": "23a69414cea2dcd199510fee6dfd4c9d"
+                    },
+                    "required_dependencies": [],
+                    "size": 95630,
+                    "date_published": "2026-05-11T05:34:41.510Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "reliable_recipes-forge-1.20.1-1.13.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/Hl4ARA1z/versions/3u05J991/reliable_recipes-forge-1.20.1-1.13.2.jar",
+                    "id": "3u05J991",
+                    "parent_id": "Hl4ARA1z",
+                    "hashes": {
+                        "sha512": "1fe14da409652c780f30acfecd0ddb3c9f31294d04264d30383b53fc8e7d23ca604e0c7f669a6666c33844eed95b0c271203f115d866e0925af517883dfa6664",
+                        "sha1": "53ec9d467c81962ce35cc031179b269859b1b76f"
+                    },
+                    "required_dependencies": [],
+                    "size": 95630,
+                    "date_published": "2026-05-11T05:34:41.631018Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "4O4FdisNCsXuD0Hq",
+            "pakku_links": [
+                "WtEcFD3Vf3GJpLHs"
+            ],
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "curseforge": "reliable-remover",
+                "modrinth": "reliable-remover"
+            },
+            "name": {
+                "curseforge": "Reliable Remover",
+                "modrinth": "Reliable Remover"
+            },
+            "id": {
+                "curseforge": "1420447",
+                "modrinth": "pLxsKvNt"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "reliable_remover-forge-1.20.1-2.4.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8193/995/reliable_remover-forge-1.20.1-2.4.1.jar",
+                    "id": "8193995",
+                    "parent_id": "1420447",
+                    "hashes": {
+                        "sha1": "4cc7835ae11ce1bccd16454f3c3fc38c368d0f8f",
+                        "md5": "c7d2ce8816679bc4156ef5a72bc48080"
+                    },
+                    "required_dependencies": [
+                        "1414959"
+                    ],
+                    "size": 93981,
+                    "date_published": "2026-06-04T02:41:06.123Z"
+                },
+                {
+                    "type": "modrinth",
+                    "file_name": "reliable_remover-forge-1.20.1-2.4.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/pLxsKvNt/versions/V0XY0DLj/reliable_remover-forge-1.20.1-2.4.1.jar",
+                    "id": "V0XY0DLj",
+                    "parent_id": "pLxsKvNt",
+                    "hashes": {
+                        "sha512": "ee0c30509e02810582003d563a238a5856f6f6a0a7b8925341898679a8c3effa6274609ff347179d06d97c268d61d0fcf0a1b5605019a9bbf33c87a49ff13e63",
+                        "sha1": "4cc7835ae11ce1bccd16454f3c3fc38c368d0f8f"
+                    },
+                    "required_dependencies": [
+                        "Hl4ARA1z"
+                    ],
+                    "size": 93981,
+                    "date_published": "2026-06-04T02:41:06.239347Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "zQAe1eid9EE5PMwK",
             "type": "MOD",
             "side": "BOTH",
