@@ -15512,6 +15512,43 @@
             ]
         },
         {
+            "pakku_id": "bfwwCIWa8ADUlqVP",
+            "type": "MOD",
+            "side": "BOTH",
+            "slug": {
+                "modrinth": "spuds-shops"
+            },
+            "name": {
+                "modrinth": "Spud's shops"
+            },
+            "id": {
+                "modrinth": "sHFbDnFN"
+            },
+            "files": [
+                {
+                    "type": "modrinth",
+                    "file_name": "spudaciousshops-1.10.2-forge-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://cdn.modrinth.com/data/sHFbDnFN/versions/nqVGl7BE/spudaciousshops-1.10.2-forge-1.20.1.jar",
+                    "id": "nqVGl7BE",
+                    "parent_id": "sHFbDnFN",
+                    "hashes": {
+                        "sha512": "1dc969a7eb34a0e6821c0f2c1616c229ae569dcf6259ef018ceb041a36c8b69c98f7ab82173a5c7e0367858cd6b4e38ef0f7ee553b02c7bed79355f400b153a9",
+                        "sha1": "faa5dae3f72282873c043f4464ac4e94ed46991c"
+                    },
+                    "required_dependencies": [],
+                    "size": 937777,
+                    "date_published": "2026-03-24T17:56:17.588097Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "2JJz5v0klvMeBh51",
             "type": "MOD",
             "side": "BOTH",
