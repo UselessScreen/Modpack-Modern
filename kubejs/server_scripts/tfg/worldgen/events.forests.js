@@ -157,6 +157,7 @@ TFCEvents.worldgenData(event => {
 		null, null, null, null, null, null,
 		placement => {}
 	)
+})
 
 function registerTFGForestConfiguredFeatures(event) {
 	event.add('tfg:mars_forest_entries', 'tfg:mars/crimson_forest_entry')
@@ -165,4 +166,5 @@ function registerTFGForestConfiguredFeatures(event) {
 	event.add('tfg:mars_forest_entries', 'tfg:mars/strophar_forest_entry')
 	event.add('tfg:mars_forest_entries', 'tfg:mars/alphacene_forest_entry')
 	event.add('tfg:mars_forest_entries', 'tfg:mars/glacian_forest_entry')
+	event.add('tfg:mars_forest_entries', 'psychedelicraft:juniper_forest_entry')
 }
